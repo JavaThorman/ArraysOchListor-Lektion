@@ -1,5 +1,11 @@
-public class Main {
+public class ArraysOchListor {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+
+
+
+
+
+
     }
 }
