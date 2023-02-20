@@ -1,4 +1,4 @@
-public class Main {
+public class ArraysOchListor {
     public static void main(String[] args) {
 
         // Array[] - lista av värden som ligger i rad i minnet, statisk storlek.
