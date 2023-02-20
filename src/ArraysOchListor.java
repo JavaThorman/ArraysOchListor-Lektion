@@ -102,5 +102,6 @@ list.lastIndexOf();
         list.set(); // Update index pos?
         list.forEach(System.out::println);
 
+        System.out.println("--------------------------\n");
     }
 }
