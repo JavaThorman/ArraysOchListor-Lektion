@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class ArraysOchListor {
     public static void main(String[] args) {
 
@@ -16,7 +19,7 @@ public class ArraysOchListor {
 
         int[] nuffror2 = {1, 2, 3};
         System.out.println(nuffror2[1]);
-
+        System.out.println("--------------------------\n");
 
         // ---------- LISTOR ----------
         //Listor växer dynamiskt, arrayer är statiskt stora.
@@ -58,8 +61,46 @@ public class ArraysOchListor {
         // Array är INTE dynamisk
         // ArrayList ÄR dynamisk
         // ------------------------------------------------------------------
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(2001);
+        list.add(2010);
+        list.add(2015);
+
+        for (int i = 0; i < list.size(); i++) { // printa ut alla index.
+            System.out.println("index " + i + " : " + list.get(i));
+        }
+        list.remove(0); // tar bort index 0, vilket är start-index.
+        System.out.println(" ------------------------------------------------------------------");
+
+        for (int i = 0; i < list.size(); i++) { // printa ut alla index, igen.
+            System.out.println("index " + i + " : " + list.get(i));
+        }
+        Integer[] myArray = {1, 2, 3, 4, 5};
+        Collections.addAll(list, myArray);
+
+        if (list.contains(2001)) { // ser om 2001 finns i list listan.
+            System.out.println("Boken finns");
+        } else {
+            System.out.println("Boken finns inte");
         }
 
+        int bokPos = list.indexOf(2001); // hämta "2001" nuvarande index (plats).
+        System.out.println("Boken finns på index " + bokPos);
+
+
+        // list.ensureCapacity(); // bestämmer storleken på listan.
+list.lastIndexOf();
+        list.add();
+        list.addAll();
+        list.clear(); //rensa lista
+        list.contains(); //söka upp något i lista
+        list.indexOf(); // söka efter specifikt värde.
+        list.remove(); // tar bort objekt, eller int index.
+        list.sort(); // sortera listan snyggt
+        list.toArray() // omvandlar listan till array.
+        list.trimToSize(); // återskapar listan på fint sätt
+        list.set(); // Update index pos?
+        list.forEach(System.out::println);
 
     }
 }
