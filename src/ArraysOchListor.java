@@ -8,6 +8,7 @@ public class ArraysOchListor {
         // int[] nuffror1 = new int[3];
         // int[] nuffror2 = {1, 2, 3};
 
+
          int[] nuffror1 = new int[3];
         nuffror1[0]=13;
         nuffror1[1]=37;
@@ -15,11 +16,14 @@ public class ArraysOchListor {
 
         int[] nuffror2 = {1,2,3};
         System.out.println(nuffror2[1]);
+
+
+
         // ---------- LISTOR ----------
-        // Listor växer dynamiskt, arrayer är statiskt stora.
+        //Listor växer dynamiskt, arrayer är statiskt stora.
         //ArrayList() - en dynamisk samling av objekt som kan växa eller krympa efter behov
-          //      Hashet() - Datastruktur i Java som används för att lagra unika element utan att tillåta () -> dubletter
-            //    Hashmap() - Datastruktur i java som tillåter lagring av värden i par av nycklar och värden.
+        //Hashet() - Datastruktur i Java som används för att lagra unika element utan att tillåta () -> dubletter
+        //Hashmap() - Datastruktur i java som tillåter lagring av värden i par av nycklar och värden.
 
         //LinkedList() - Datastruktur som består av en kedja av noder där varje nod har en referens till nästa nod och som
         // möjliggör dynamiskt läggande tilloch borttagande av element.
@@ -27,8 +31,15 @@ public class ArraysOchListor {
 
 
 
-// C.R.U.D (L)
+        // C.R.U.D (L)
         // Crud även kallad CRUDL är ett mänster man alltid följer när man arbetar med datamängder.
         // C - create, R -read, U - update, D - Delete, L - List (brukar klassifieras i R delen.
+
+
+
+
+
+
+
     }
 }
